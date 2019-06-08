@@ -1,0 +1,417 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+body{
+	font-family: Segoe UI;
+}
+.clear{
+	clear: both;
+}
+.header{
+	padding-top: 30px;
+}
+.header .logo img{
+	margin: auto;
+}
+.header .right{
+	text-align: right;
+}
+.header .right .profesional a{
+	text-decoration: underline;
+	color: black;
+}
+.header .right .action .form{
+	float: right;
+	margin-right: 5px;
+}
+.header .right .action .user{
+	float: right;
+	margin-right: 5px;		
+}
+.header .right .action .cart{
+	float: right;
+}
+.header .right .action .form input{
+	border-color: #d3ab98;
+	position: relative;
+	width: 200px;
+	height: 25px;
+	border: 1px solid #d3ab98;
+	border-radius: 5px;
+}
+.header .right .action .form i{
+	position: absolute;
+	top:23px;
+	right: 25px;
+}
+/*---------------menu--------------------*/
+.menu{
+	
+}
+.menu ul{
+	background-color: #F9F9F9;
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+	overflow: hidden;
+  	width: 100%;
+  	padding-left: 80px;
+  	padding-bottom: 10px;
+  	padding-top: 10px;
+  	margin-top: 10px;
+}
+.menu ul li{
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DCAB98;
+	color: #f1f1f1;
+	float: left;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+}
+.menu ul li:last-child{
+	border-right: 0px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.menu a:hover {
+	color: #DCAB98;
+}
+/*--------------------------end menu-------------------------------*/
+
+/*---------------------slide show----------------------*/
+.mySlides {display: none}
+.mySlides img {
+	vertical-align: middle;
+	height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+/* Caption text */
+.text a{
+	text-decoration: none;
+	color: #f2f2f2;
+}
+.text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.text span{
+	border: 1px solid white;
+	padding: 5px 15px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .4s;
+  animation-name: fade;
+  animation-duration: 600000s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.mySlides a:hover +.text{
+	display: block;
+}
+
+/*--------------------end slide show==-------------------------*/
+
+/*--------------------------------wrap 1-----------------------------*/
+.wrap1{
+	margin-top: 10px;
+	background-color: #FBFBFB;
+
+}
+.wrap1 .content{
+	text-transform: uppercase;
+	font-size: 21.3333px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	line-height: 25.6px;
+	text-align: center;
+	margin-top: 15px;
+}
+.wrap1 .slogan{
+	font-size: 36px;
+	font-family: 'Marck Script', cursive;
+	color: #d8bbae;
+	line-height: 36px;
+	font-weight: 400px;
+	vertical-align: baseline;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.wrap1 .img1{
+	margin-left: 45px;
+}
+.wrap1 .img2{
+	margin-left: 0px;
+}
+.wrap-text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.wrap-text a span{
+	text-decoration: none;
+	border: 0px solid white;
+	padding: 5px 15px;
+	color: #f2f2f2;
+	background-color: #F2665C;
+}
+
+.wrap1 .img1:hover +.wrap-text{
+	display: block;
+}
+.wrap1 .img2:hover +.wrap-text{
+	display: block;
+}
+/*-------------------------end wrap 1-----------------------------*/
+
+
+/*------------------------ warp2---------------*/
+.wrap2 img{
+	position: relative;
+}
+.wrap2 .wrap2-content{
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	width: 340px;
+	text-align: justify;
+}
+.wrap2 .wrap2-content .wrap2-content-sub h3{
+	font-weight: bold;
+	line-height: 29.6px;
+	font-size: 24.6667px;
+}
+.wrap2 .wrap2-content .wrap2-content-sub p{
+	line-height: 20px;
+	font-size: 13.333px;
+}
+.wrap2 .link{
+	margin-top: 50px;
+}
+.wrap2 .link a{
+	background-color: #F2665C;
+	border-radius: 10px;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: white;
+}
+/*------------------------ end warp2---------------*/
+.wrap-test .wrap-test-content{
+	padding-top: 50px;
+	margin-left: 150px;
+	width: 340px;
+	text-align: justify;
+}
+.wrap-test .wrap-test-content .wrap2-content-sub h3{
+	font-weight: bold;
+	line-height: 29.6px;
+	font-size: 24.6667px;
+}
+.wrap-test .wrap-test-content .wrap2-content-sub p{
+	line-height: 20px;
+	font-size: 13.333px;
+}
+.wrap-test .link{
+	margin-top: 50px;
+}
+.wrap-test .link a{
+	background-color: #F2665C;
+	border-radius: 10px;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: white;
+}
+
+
+/*------------------------ warp3-------------------*/
+.wrap3{
+	background-color: #F9F6F4;
+}
+.wrap3 .img{
+	margin-top: 70px;
+	margin-right: 150px;
+	margin-bottom: 70px;
+	width: 515px;
+	height: 350px;
+}
+.wrap3 .wrap3-content{
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 340px;
+	text-align: justify;
+}
+.wrap3 .wrap3-content .wrap3-content-sub h3{
+	font-weight: bold;
+	line-height: 29.6px;
+	font-size: 24.6667px;
+}
+.wrap3 .wrap3-content .wrap3-content-sub p{
+	line-height: 20px;
+	font-size: 13.333px;
+}
+.wrap3 .link{
+	margin-top: 50px;
+}
+.wrap3 .link a{
+	background-color: #F2665C;
+	border-radius: 10px;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: white;
+}
+/*------------------------ end warp3---------------*/
+
+
+/*===================list product==================*/
+.list-product-name{
+	padding-top: 10px;
+}
+
+.line-top{
+	margin-top: 25px;
+	border: 3px solid #D3AB98;
+	width: 300px;
+	margin-bottom: 5px;
+}
+.line-bot{
+	border: 3px solid #D3AB98;
+	width: 200px;	
+}
+.list-product-name .content{
+	line-height: 54px;
+	font-size: 54px;
+	text-align: center;
+	font-family: 'Marck Script', cursive;
+}
+/*===================end list product==================*/
+
+
+/*.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}*/
