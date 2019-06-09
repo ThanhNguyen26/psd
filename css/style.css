@@ -449,7 +449,7 @@ body{
 }
 .img-bot img{
 	padding-left: 150px;
-	padding-top: 130px;
+	padding-top: 122px;
 }
 .line{
 	border: 1px solid #e7c3b3;
@@ -460,4 +460,122 @@ body{
 .img-top img{
 	padding-top: 25px;
 	padding-left: 75px;
+}
+.wrap5{
+	background-color: #fffdfd;
+}
+.wrap5 .content{
+	padding-top: 10px;
+}
+.list-product{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.list-product img{
+
+}
+
+.black{
+	color: black;
+}
+.list-product a:hover{
+	text-decoration: none;
+}
+.lipr-title{
+	margin-top: 5px;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+.lipr-content{
+	color: black;
+	font-family: Arial;
+	text-align: justify;
+	line-height: 18px;
+}
+
+.list-product .link a{
+	border-radius: 0px;
+	display: none;
+}
+
+.wrap6 .list-product .list-main{
+	position: relative;
+}
+.wrap6 .list-product .link{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+
+.wrap6 .list-product .list-main:hover +.link{
+	display: block;
+}
+
+
+
+
+
+
+/*--------------footer---------------------*/
+.banner-footer{
+	background-image: url("../img/backgroundft.jpg");
+	height: 300px;
+	background-repeat: no-repeat;
+	display: block;
+}
+.banner-footer-left{ 
+	padding-top: 76px;
+}
+.join{
+	text-transform: uppercase;
+	padding-left: 157px;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+.email{
+	padding-left: 157px;
+}
+.footer .banner-footer .banner-footer-left .email form input{
+	background: none;
+    position: relative;
+    outline: none;
+    border: none;
+    width: 400px;
+    border-bottom: 1px solid #fff;
+    padding: 3px;
+    margin-left: -5px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.email span{
+	border-bottom: 1px solid #fff;
+	padding: 5px;
+}
+.email button{
+	background-color: white;
+	border: 1px solid white;
+	width: 423px;
+	height: 35px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+}
+.banner-title{
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+.banner-content{
+	font-family: 'Marck Script', cursive;
+	color: white;
+	line-height: 24px;
+	font-size: 24px;
+	width: 300px;
 }
