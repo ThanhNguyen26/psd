@@ -12,7 +12,8 @@ body{
 .header{
 	padding-top: 30px;
 }
-.header .logo img{
+.logo img{
+	display: block;
 	margin: auto;
 }
 .header .right{
@@ -330,28 +331,32 @@ body{
 	width: 515px;
 	height: 350px;
 }
-.wrap3 .wrap3-content{
+.wrap3-content{
 	margin-top: 100px;
 	margin-left: 150px;
 	width: 340px;
 	text-align: justify;
 }
-.wrap3 .wrap3-content .wrap3-content-sub h3{
+.wrap3-content .wrap3-content-sub h3{
 	font-weight: bold;
 	line-height: 29.6px;
 	font-size: 24.6667px;
 }
-.wrap3 .wrap3-content .wrap3-content-sub p{
+.wrap3-content .wrap3-content-sub p{
 	line-height: 20px;
 	font-size: 13.333px;
 }
-.wrap3 .link{
+.link{
 	margin-top: 50px;
 }
-.wrap3 .link a{
+.link a{
 	background-color: #F2665C;
 	border-radius: 10px;
 	padding: 10px 25px;
+	text-decoration: none;
+	color: white;
+}
+.link a:hover{
 	text-decoration: none;
 	color: white;
 }
@@ -415,3 +420,44 @@ body{
   width: 250px;
   height: 100px
 }*/
+
+
+.content{
+	text-transform: uppercase;
+	font-size: 21.3333px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	line-height: 25.6px;
+	text-align: center;
+	margin-top: 15px;
+}
+.slogan{
+	font-size: 36px;
+	font-family: 'Marck Script', cursive;
+	color: #d8bbae;
+	line-height: 36px;
+	font-weight: 400px;
+	vertical-align: baseline;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.wrap4{
+	background-image: url('../img/content3.jpg');
+	height: 550px;
+}
+.img-bot img{
+	padding-left: 150px;
+	padding-top: 130px;
+}
+.line{
+	border: 1px solid #e7c3b3;
+	margin: auto;
+	width: 45px;
+}
+
+.img-top img{
+	padding-top: 25px;
+	padding-left: 75px;
+}
