@@ -579,3 +579,59 @@ body{
 	font-size: 24px;
 	width: 300px;
 }
+.footer-bot-left{
+	padding-left: 100px;
+}
+.fbl-list h3{
+	text-transform: uppercase;
+	color: #333333;
+	line-height: 19px;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 19px;
+}
+.line-footer{
+	border: 1px solid #D3AB98;
+	width: 100px;
+}
+
+.list-title ul{
+	list-style: none;
+}
+.list-title ul li{
+	line-height: 28px;
+	font-size: 17px;
+}
+.list-title ul li a{
+	color: #D3AB98;
+	text-decoration: none;
+}
+.pay-method{
+	color: #333333;
+	line-height: 19px;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.pay-method-list ul{
+	list-style: none;
+}
+.pay-method-list ul li{
+	float: left;
+	display: inline-block;
+	margin-right: 8px;
+}
+.pay-method-list ul li img{
+	width: 50px;
+	height: 30px;
+}
+
+.follow{
+	color: #333333;
+	line-height: 19px;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 17px;
+}
+
